@@ -1,0 +1,26 @@
+{% capture build_number %}{{ site.github.build_revision }}{{ site.time | date: '%Y%m%d%H%M%S' }}{% endcapture %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="icon" type="image/png" href="/assets/png/bags64.png" />
+  <link rel="preload" href="/assets/png/bags64.png" as="image">
+  <link rel="manifest" href="/quick-market.webmanifest">
+
+  <title>Quick Market</title>
+</head>
+
+<script>
+  window.$qoConfig = {
+    buildNumber: '{{ build_number }}'
+  }
+</script>
+
+<body>
+  {{ content }}
+</body>
+
+</html>

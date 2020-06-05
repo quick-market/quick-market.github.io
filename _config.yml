@@ -1,0 +1,17 @@
+defaults:
+  - scope:
+      path: "pages/*"
+    values:
+      layout: "default"
+exclude:
+  - .vscode/
+  - .eslintrc
+  - .gitignore
+  - build/
+  - node_modules/
+  - src/
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - package.json
+  - rollup.config.js
