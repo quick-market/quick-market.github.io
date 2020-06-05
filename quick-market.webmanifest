@@ -11,22 +11,22 @@
   ],
   "icons": [
     {
-      "src": "/assets/png/bags32.png",
+      "src": "/assets/png/favicon32.png",
       "type": "image/png",
       "sizes": "32x32"
     },
     {
-      "src": "/assets/png/bags64.png",
+      "src": "/assets/png/favicon64.png",
       "type": "image/png",
       "sizes": "64x64"
     },
     {
-      "src": "/assets/png/bags128.png",
+      "src": "/assets/png/favicon128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/assets/png/bags256.png",
+      "src": "/assets/png/favicon256.png",
       "type": "image/png",
       "sizes": "256x256"
     }
